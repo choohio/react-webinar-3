@@ -25,5 +25,3 @@ store.subscribe(() => {
 
 // Первый рендер приложения
 root.render(<App store={store} />);
-
-console.log(Date.now())

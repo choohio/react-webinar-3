@@ -26,7 +26,3 @@ export function createElement(name, props = {}, ...children) {
 
   return element;
 }
-
-export function generateUniqueNumber() {
-  return Date.now(); 
-}
