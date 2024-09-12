@@ -14,6 +14,7 @@ const store = new Store({
     { code: 6, title: 'Шестая запись' },
     { code: 7, title: 'Седьмая запись' },
   ],
+  nextCode: 0,
 });
 
 const root = createRoot(document.getElementById('root'));
@@ -24,3 +25,5 @@ store.subscribe(() => {
 
 // Первый рендер приложения
 root.render(<App store={store} />);
+
+console.log(Date.now())
